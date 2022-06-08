@@ -1,0 +1,32 @@
+.header{ 
+    border : 1px solid #dedede; 
+    padding : 40px; 
+    margin : 0px; 
+    background : #9E9AFB; 
+}
+h1{
+    color: white;
+}
+h3{
+    color: whitesmoke;
+    text-align: center;
+}
+.container{ 
+    max-width : 1500px; 
+    margin : 20px auto; 
+    background : #fff; 
+    overflow : hidden; 
+    padding : 10px; 
+} 
+.footer{ 
+    clear : both; 
+    padding : 20px; 
+    margin : 0px; 
+    background : #9E9AFB; 
+    
+} 
+table{
+    border: 1px solid blue;
+    padding: 50px;
+    
+}

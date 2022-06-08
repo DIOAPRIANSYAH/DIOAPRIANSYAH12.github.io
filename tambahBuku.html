@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Tambah Data</title>
+        <link type="text/css" rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+            <h1> TOKO BUKU XYZ </h1>
+            </div>
+        <div class="tambah">
+            <h2>Tambah Data</h2>
+        </div>
+        <form enctype="multipart/form-data" action="insertProcess.php" method="get">
+            <table>
+                <tr> 
+                    <td> Kode Buku: </td>
+                    <td><input type="text" name="myid"></td>
+                </tr>
+                <tr>
+                    <td> Judul: </td>
+                    <td> <input type="text" name="myname" ></td>
+                </tr>
+                <tr>
+                    <td> Pengarang: </td>
+                    <td> <input type="text" name="mypengarang" ></td>
+                </tr>
+                <tr>
+                    <td> Penerbit: </td>
+                    <td> <input type="text" name="mypenerbit" ></td>
+                </tr>
+                <tr>
+                    <td> Deskripsi: </td>
+                    <td> <textarea name="mydes" rows="5" cols="20"></textarea></td>
+                </tr>
+                
+            </table>
+            <br>
+        <H4 align="right"><input type="submit" name="save" value="Simpan"></H4>
+        <br>
+        </form>
+        
+        <div class="footer">
+            <h3> HALAMAN TAMBAH DATA </h3>
+        </div>
+        </div>
+    </body>
+</html>
